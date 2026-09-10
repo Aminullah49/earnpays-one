@@ -1,0 +1,1259 @@
+{
+  "users": [
+    {
+      "id": "usr-1",
+      "name": "Tunde Bakare",
+      "email": "tunde@earnpay.ng",
+      "phone": "+234 812 345 6789",
+      "role": "user",
+      "membershipTier": "Free",
+      "tasksCompletedToday": 1,
+      "referralCode": "EP-TUNDE99",
+      "kycLevel": "basic",
+      "kycStatus": "approved",
+      "pinSet": true,
+      "createdAt": "2026-05-30T10:21:47.653Z",
+      "streakCount": 5,
+      "lastCheckIn": "2026-06-29",
+      "membershipExpiresAt": "2026-09-02T17:52:45.588Z"
+    },
+    {
+      "id": "usr-2",
+      "name": "Chidi Okafor",
+      "email": "chidi@earnpay.ng",
+      "phone": "+234 905 111 2222",
+      "role": "user",
+      "membershipTier": "Bronze",
+      "tasksCompletedToday": 2,
+      "referralCode": "EP-CHIDI22",
+      "referredBy": "usr-1",
+      "kycLevel": "advanced",
+      "kycStatus": "approved",
+      "pinSet": true,
+      "createdAt": "2026-06-14T10:21:47.653Z",
+      "streakCount": 12,
+      "lastCheckIn": "2026-06-29",
+      "membershipExpiresAt": "2027-07-04T17:52:45.588Z"
+    },
+    {
+      "id": "usr-3",
+      "name": "Amina Yusuf",
+      "email": "amina@earnpay.ng",
+      "phone": "+234 703 999 8888",
+      "role": "user",
+      "membershipTier": "Silver",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-AMINA77",
+      "referredBy": "usr-2",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-06-29T10:21:47.653Z",
+      "streakCount": 2,
+      "membershipExpiresAt": "2027-07-04T17:52:45.588Z"
+    },
+    {
+      "id": "adv-1",
+      "name": "Jumia Tech Partners",
+      "email": "advertiser@jumia.com.ng",
+      "phone": "+234 809 333 4444",
+      "role": "advertiser",
+      "membershipTier": "Free",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-JUMIA",
+      "kycLevel": "basic",
+      "kycStatus": "approved",
+      "pinSet": true,
+      "createdAt": "2026-06-29T10:21:47.653Z",
+      "streakCount": 1,
+      "membershipExpiresAt": "2026-09-02T17:52:45.588Z"
+    },
+    {
+      "id": "adm-1",
+      "name": "aminu sani",
+      "email": "aminuonline82@gmail.com",
+      "phone": "+234 703 717 9853",
+      "role": "admin",
+      "membershipTier": "Diamond",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-AMINU44",
+      "kycLevel": "advanced",
+      "kycStatus": "approved",
+      "pinSet": false,
+      "createdAt": "2026-06-29T10:24:34.367Z",
+      "streakCount": 0,
+      "adminRole": "sole",
+      "password": "sole123",
+      "membershipExpiresAt": "2026-08-28T10:24:34.367Z"
+    },
+    {
+      "id": "adm-2",
+      "name": "EarnPay Operations Officer",
+      "email": "admin2@earnpay.ng",
+      "phone": "+234 811 111 2222",
+      "role": "admin",
+      "adminRole": "financial",
+      "password": "admin123",
+      "membershipTier": "Gold",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-ADMIN-OPS",
+      "kycLevel": "advanced",
+      "kycStatus": "approved",
+      "pinSet": true,
+      "createdAt": "2026-06-29T10:21:47.654Z",
+      "streakCount": 50,
+      "membershipExpiresAt": "2027-07-04T17:52:45.588Z"
+    },
+    {
+      "id": "usr-dfh4u73q8",
+      "name": "Test User 99",
+      "email": "testuser99@gmail.com",
+      "phone": "+234 8121465311",
+      "role": "user",
+      "password": "$2b$10$TgRgPZNtTp2E8a2H45jBY.sQK9L6MFz0qGL2aizdoory3mA9iBkYO",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-09-24T17:35:46.608Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-TEST97",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-07-26T17:35:46.608Z",
+      "streakCount": 0
+    },
+    {
+      "id": "usr-dynsghuqf",
+      "name": "Persistence Test User",
+      "email": "testpersistence1785087595616@earnpay.ng",
+      "phone": "+234 8187634146",
+      "role": "user",
+      "password": "$2b$10$RItxtvn0thpqch7t9PsqzOT4cjF6M2Llk41BLJ4PcQU89J3ucErZe",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-09-24T17:39:55.843Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-PERSI23",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-07-26T17:39:55.843Z",
+      "streakCount": 0
+    },
+    {
+      "id": "usr-3zz0ws559",
+      "name": "Normal User",
+      "email": "user_1785087748693@earnpay.ng",
+      "phone": "+234 8166726373",
+      "role": "user",
+      "password": "$2b$10$d5dnQXIsCgywMRB8kvYCdO8sQF8mCsZ7GBqz2uP3jrbe5IltN4kOu",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-09-24T17:42:28.897Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-NORMA26",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-07-26T17:42:28.897Z",
+      "streakCount": 0
+    },
+    {
+      "id": "usr-1wn2ysier",
+      "name": "Advertiser Partner",
+      "email": "adv_1785087748693@earnpay.ng",
+      "phone": "+234 8168449239",
+      "role": "advertiser",
+      "password": "$2b$10$F5Aj74qvMfwaUB9aIvB.Z.iwzIdNdQyhMqa2iIGPr6Rll4j25P12W",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-09-24T17:42:29.029Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-ADVER60",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-07-26T17:42:29.029Z",
+      "streakCount": 0
+    },
+    {
+      "id": "usr-q71th2f2e",
+      "name": "Test Real User",
+      "email": "testrealuser@gmail.com",
+      "phone": "+234 8142315736",
+      "role": "user",
+      "password": "$2b$10$JBNkNZ1au9srwADWDgEbwO4Z9WQKxQnsxSGISwxjPeH9QOotT0IsK",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-11-03T16:38:57.653Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-TEST47",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-09-04T16:38:57.653Z",
+      "streakCount": 0
+    }
+  ],
+  "wallets": {
+    "usr-jajj81i07": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "adv-1": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "adm-2": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-2": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-cw6ma1eur": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-3zz0ws559": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-3": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-1wn2ysier": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-dfh4u73q8": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-q71th2f2e": {
+      "available": 500,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 500
+    },
+    "usr-1": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "adm-1": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    },
+    "usr-dynsghuqf": {
+      "available": 0,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 0
+    }
+  },
+  "transactions": [
+    {
+      "id": "tx-95sjdpn7v",
+      "userId": "usr-q71th2f2e",
+      "type": "referral_bonus",
+      "amount": 500,
+      "fee": 0,
+      "currency": "NGN",
+      "status": "completed",
+      "reference": "WLC-543497",
+      "description": "Welcome to EarnPay Sign up Bonus credit",
+      "createdAt": "2026-09-04T16:38:57.653Z"
+    }
+  ],
+  "settings": {
+    "paymentPublicKey": "FLWPUBK-f641ac84242eddbd9815810bad7ae5aa-X",
+    "adsenseHeaderCode": "https://www.effectivecpmnetwork.com/h4gqha6k60?key=12864da274acb29f5a3246c1bef00f00",
+    "crmTerminals": [
+      {
+        "id": "term-whatsapp",
+        "name": "WhatsApp CRM",
+        "platform": "WhatsApp",
+        "type": "whatsapp",
+        "description": "Simulated live routing of help desk redirects to WhatsApp API endpoints.",
+        "webhookOrUrl": "+234 810 123 4567",
+        "status": "Operational",
+        "handshakeMsg": "WhatsApp CRM connection test: API status: Operational. Group code: HP-WAT-13."
+      },
+      {
+        "id": "term-fb",
+        "name": "Facebook Messenger Webhook",
+        "platform": "Facebook",
+        "type": "facebook",
+        "description": "Sync CRM response payloads instantly to advertiser & earner FB channels.",
+        "webhookOrUrl": "https://facebook.com/earnpay.smart",
+        "status": "Operational",
+        "handshakeMsg": "Facebook Messenger Webhook is configured correctly. Handshake: verified."
+      },
+      {
+        "id": "term-email",
+        "name": "Email / CRM Sync",
+        "platform": "Email",
+        "type": "email",
+        "description": "Forwarding incoming user requests of email `mail@earnpay.ng` instantly.",
+        "webhookOrUrl": "mail@earnpay.ng",
+        "status": "Operational",
+        "handshakeMsg": "Email bridge successfully integrated with SendGrid. IP check passed."
+      }
+    ],
+    "supportTiktok": "https://tiktok.com/@earnpay.official",
+    "offerwallUserPercentage": 50,
+    "adsenseAdRevenuePerClick": 80,
+    "adsenseSmartlinkCode": "https://www.effectivecpmnetwork.com/h4gqha6k60?key=12864da274acb29f5a3246c1bef00f00",
+    "apiNetworks": [
+      {
+        "name": "CPAlead",
+        "url": "https://www.cdnnd.com/wall/6fSsGxBr",
+        "status": "active",
+        "dailyOffersLimit": 125000
+      },
+      {
+        "name": "CPAGrip",
+        "url": "https://playabledownloads.com/show.php?l=1904822",
+        "status": "active",
+        "dailyOffersLimit": 125000
+      },
+      {
+        "name": "Lootably",
+        "url": "https://wall.lootably.com/?placementID=6fSsGxBr",
+        "status": "active",
+        "dailyOffersLimit": 125000
+      },
+      {
+        "name": "BitLabs",
+        "url": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e",
+        "status": "active",
+        "dailyOffersLimit": 125000
+      },
+      {
+        "name": "Monlix",
+        "url": "https://monlix.com/offerwall?appKey=earnpay",
+        "status": "active",
+        "dailyOffersLimit": 125000
+      }
+    ],
+    "adsenseCode": "https://www.effectivecpmnetwork.com/h4gqha6k60?key=12864da274acb29f5a3246c1bef00f00",
+    "supportPhone": "+234 810 123 4567",
+    "paymentPrivateKey": "FLWSECK-REPLACE_WITH_YOUR_ACTUAL_SECRET_KEY-X",
+    "paymentGateway": "flutterwave",
+    "supportWhatsapp": "+234 810 123 4567",
+    "adsenseSidebarCode": "https://www.effectivecpmnetwork.com/h4gqha6k60?key=12864da274acb29f5a3246c1bef00f00",
+    "minTaskRewards": {
+      "Social Media Promotion": 50,
+      "App Promotion": 250,
+      "Website Promotion": 80,
+      "Lead Generation": 200,
+      "Brand Awareness": 60,
+      "Product Review": 180,
+      "Video Engagement": 120,
+      "Survey & Market Research": 300,
+      "Newsletter Subscription": 100,
+      "Forum & Discord Joining": 110,
+      "Mobile Game Playing": 500,
+      "Business Map Review": 150
+    },
+    "supportFacebook": "https://facebook.com/earnpay.smart",
+    "enableUnlimitedAds": true,
+    "adsenseInfeedCode": "https://www.effectivecpmnetwork.com/h4gqha6k60?key=12864da274acb29f5a3246c1bef00f00",
+    "supportTwitter": "https://twitter.com/earnpay_payout",
+    "supportTelegram": "https://t.me/earnpaysmartsupport"
+  },
+  "submissions": [
+    {
+      "id": "sub-hrfxz51i7",
+      "campaignId": "dyn-cmp-l15h6x7bp",
+      "userId": "usr-x5jd2l89a",
+      "submissionProof": "[Proof Category: Live Tracked] S2S Session Verified automatically. Signed Cryptographic Hash: EpS2s_l5scrnpzvk",
+      "proofType": "text",
+      "status": "approved",
+      "aiFeedback": "Platform S2S Live-Tracker confirmed active user participation and compliance metrics with 100% conviction. Automatic reward successfully credited to your wallet balance.",
+      "reviewedByAdmin": true,
+      "createdAt": "2026-07-20T12:02:47.012Z"
+    },
+    {
+      "id": "sub-a08y6wi4s",
+      "campaignId": "dyn-cmp-l15h6x7bp",
+      "userId": "usr-x5jd2l89a",
+      "submissionProof": "[Proof Category: Live Tracked] S2S Session Verified automatically. Signed Cryptographic Hash: EpS2s_gt0betyfg5",
+      "proofType": "text",
+      "status": "approved",
+      "aiFeedback": "Platform S2S Live-Tracker confirmed active user participation and compliance metrics with 100% conviction. Automatic reward successfully credited to your wallet balance.",
+      "reviewedByAdmin": true,
+      "createdAt": "2026-07-20T12:02:46.135Z"
+    },
+    {
+      "id": "sub-m9ielygaz",
+      "campaignId": "dyn-cmp-ly8d8vais",
+      "userId": "usr-x5jd2l89a",
+      "submissionProof": "[Proof Category: Live Tracked] S2S Session Verified automatically. Signed Cryptographic Hash: EpS2s_er3ewofv2n",
+      "proofType": "text",
+      "status": "approved",
+      "aiFeedback": "Platform S2S Live-Tracker confirmed active user participation and compliance metrics with 100% conviction. Automatic reward successfully credited to your wallet balance.",
+      "reviewedByAdmin": true,
+      "createdAt": "2026-07-20T11:58:27.320Z"
+    },
+    {
+      "id": "sub-53103tmr7",
+      "campaignId": "dyn-cmp-ly8d8vais",
+      "userId": "usr-x5jd2l89a",
+      "submissionProof": "[Proof Category: Live Tracked] S2S Session Verified automatically. Signed Cryptographic Hash: EpS2s_02tdnw6n29",
+      "proofType": "text",
+      "status": "approved",
+      "aiFeedback": "Platform S2S Live-Tracker confirmed active user participation and compliance metrics with 100% conviction. Automatic reward successfully credited to your wallet balance.",
+      "reviewedByAdmin": true,
+      "createdAt": "2026-07-20T11:58:27.305Z"
+    }
+  ],
+  "savingGoals": [],
+  "supportTickets": [
+    {
+      "id": "tkt-1",
+      "userId": "usr-1",
+      "userName": "Tunde Bakare",
+      "subject": "KYC Verification delay",
+      "category": "KYC",
+      "status": "answered",
+      "messages": [
+        {
+          "sender": "user",
+          "text": "Hi support, I uploaded my NIN details yesterday but my account still says unverified basic.",
+          "createdAt": "2026-06-28T10:21:47.653Z"
+        },
+        {
+          "sender": "agent",
+          "text": "Hello Tunde, we parsed your NIN through our AI verification module. Your KYC status is now APPROVED! You are ready for high-limit withdrawals.",
+          "createdAt": "2026-06-28T12:21:47.653Z"
+        }
+      ],
+      "createdAt": "2026-06-28T10:21:47.653Z"
+    }
+  ],
+  "securityRequests": [],
+  "campaigns": [
+    {
+      "id": "dyn-cmp-l15h6x7bp",
+      "advertiserId": "adm-1",
+      "title": "Follow Kuda Bank on Instagram & Comment on latest post",
+      "category": "Social Media Promotion",
+      "instructions": "1. Search for @kuda_bank on Instagram and click follow.\n2. Like the latest post and write a helpful, constructive comment of at least 8 words.\n3. Enter your Instagram handle as proof below.",
+      "rewardValue": 350,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "2 Mins",
+      "difficulty": "Easy",
+      "creativeUrl": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://instagram.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-tp3xwotv6",
+      "advertiserId": "adm-1",
+      "title": "Verify your SIM on MTN 5G portal & capture speed screenshot",
+      "category": "Lead Generation",
+      "instructions": "1. Visit the MTN 5G eligibility portal at mtnonline.com/5g.\n2. Enter your phone number to check if your zone has coverage.\n3. Take a screenshot of the speed test/coverage check and upload it.",
+      "rewardValue": 800,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "4 Mins",
+      "difficulty": "Medium",
+      "creativeUrl": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://google.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-n9i9ziuml",
+      "advertiserId": "adm-1",
+      "title": "Sign up on Carbon and get instant credit score",
+      "category": "App Promotion",
+      "instructions": "1. Download the Carbon app from Google Play or App Store.\n2. Complete a quick sign-up and check your credit rating limit.\n3. Submit your Carbon user ID or email address as proof.",
+      "rewardValue": 1200,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "5 Mins",
+      "difficulty": "Hard",
+      "creativeUrl": "https://images.unsplash.com/photo-1563013544-824ae1d704d3?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://getcarbon.co",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-akxhe05xf",
+      "advertiserId": "adm-1",
+      "title": "Download Moniepoint Business app and verify phone number",
+      "category": "App Promotion",
+      "instructions": "1. Install the Moniepoint Business app on your mobile device.\n2. Verify your phone number via OTP on the registration screen.\n3. Enter the registered phone number as text proof below.",
+      "rewardValue": 1500,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "6 Mins",
+      "difficulty": "Hard",
+      "creativeUrl": "https://images.unsplash.com/photo-1616077168079-7e09a677fb2c?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://moniepoint.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-e06u49p55",
+      "advertiserId": "adm-1",
+      "title": "Subscribe to PiggyVest YouTube Channel and hit bell icon",
+      "category": "Social Media Promotion",
+      "instructions": "1. Search for PiggyVest on YouTube.\n2. Click the subscribe button and turn on notifications (bell icon).\n3. Enter your YouTube account name or channel handle as text proof.",
+      "rewardValue": 250,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "1.5 Mins",
+      "difficulty": "Easy",
+      "creativeUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://youtube.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-ly8d8vais",
+      "advertiserId": "adm-1",
+      "title": "Retweet OPay 2026 Anniversary pinned tweet on Twitter",
+      "category": "Social Media Promotion",
+      "instructions": "1. Search for @OPay_NG on X (Twitter).\n2. Find the pinned post about the 2026 anniversary rewards.\n3. Like and retweet the post, then submit your X handle below.",
+      "rewardValue": 200,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "1 Min",
+      "difficulty": "Easy",
+      "creativeUrl": "https://images.unsplash.com/photo-1611605698335-8b15d27e03f3?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://twitter.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-sel3cq9r4",
+      "advertiserId": "adm-1",
+      "title": "Review FairMoney microloans app on Playstore with 5 stars",
+      "category": "Product Review",
+      "instructions": "1. Locate FairMoney App on Google Play Store.\n2. Rate the application 5 stars.\n3. Write a positive, helpful review about their swift loan disbursement and submit your Play Store name below.",
+      "rewardValue": 1000,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "3 Mins",
+      "difficulty": "Medium",
+      "creativeUrl": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://google.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-85qug0v12",
+      "advertiserId": "adm-1",
+      "title": "Join PalmPay ₦50 Million Giveaway Discussion Group on Telegram",
+      "category": "Social Media Promotion",
+      "instructions": "1. Click the PalmPay promo link and join the Telegram discussion community.\n2. Read the latest instructions pinned in the channel.\n3. Enter your Telegram handle or nickname to verify registration.",
+      "rewardValue": 450,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "2 Mins",
+      "difficulty": "Easy",
+      "creativeUrl": "https://images.unsplash.com/photo-1521791136368-1a46827d0af7?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://telegram.org",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    },
+    {
+      "id": "dyn-cmp-p84fvopi8",
+      "advertiserId": "adm-1",
+      "title": "Sign up on Yellow Card Crypto App & verify email address",
+      "category": "App Promotion",
+      "instructions": "1. Download Yellow Card app from your app store.\n2. Complete the initial basic signup form.\n3. Verify your email via OTP. Submit the verified email address as text proof.",
+      "rewardValue": 2000,
+      "totalBudget": 150000,
+      "remainingBudget": 148500,
+      "status": "active",
+      "timeRequired": "7 Mins",
+      "difficulty": "Hard",
+      "creativeUrl": "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?w=120&auto=format&fit=crop&q=60",
+      "targetLink": "https://google.com",
+      "submissionsCount": 1,
+      "approvalRate": 100
+    }
+  ],
+  "offers": [
+    {
+      "id": "cg-1",
+      "network": "CPAGrip",
+      "title": "Install Alibaba Shopping App & Earn",
+      "description": "Download and open the Alibaba app on your device, register a free account and browse products for 2 minutes to earn direct cash rewards.",
+      "rewardAmount": 350,
+      "estimatedTime": "3 Mins",
+      "difficulty": "Easy",
+      "category": "App Installs",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-1&task=Install%20Alibaba%20Shopping%20App%20%26%20Earn"
+    },
+    {
+      "id": "cg-2",
+      "network": "CPAGrip",
+      "title": "Take the Quick Financial Literacy Survey",
+      "description": "Complete the 5-minute lifestyle and financial choices questionnaire honestly to unlock premium rewards and system multiplier bonuses.",
+      "rewardAmount": 450,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Medium",
+      "category": "Surveys",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-2&task=Take%20the%20Quick%20Financial%20Literacy%20Survey"
+    },
+    {
+      "id": "cg-3",
+      "network": "CPAGrip",
+      "title": "Register on Kuda Bank Web",
+      "description": "Create a free virtual savings profile on Kuda Bank, verify your email address and make your first micro-saving to unlock rewards.",
+      "rewardAmount": 1200,
+      "estimatedTime": "8 Mins",
+      "difficulty": "Hard",
+      "category": "Finance Offers",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-3&task=Register%20on%20Kuda%20Bank%20Web"
+    },
+    {
+      "id": "cg-4",
+      "network": "CPAGrip",
+      "title": "Play Coin Master: Reach Level 10",
+      "description": "Install Coin Master from the store, complete the interactive tutorial and spin your way to level 10 to receive instantaneous credit.",
+      "rewardAmount": 850,
+      "estimatedTime": "15 Mins",
+      "difficulty": "Hard",
+      "category": "Gaming Offers",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-4&task=Play%20Coin%20Master%3A%20Reach%20Level%2010"
+    },
+    {
+      "id": "cg-5",
+      "network": "CPAGrip",
+      "title": "Claim Free NGN 1,000 Crypto Voucher",
+      "description": "Sign up for a verified free account on Luno and receive a free NGN 1,000 crypto start voucher with active balance integration.",
+      "rewardAmount": 650,
+      "estimatedTime": "6 Mins",
+      "difficulty": "Medium",
+      "category": "Crypto Offers",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-5&task=Claim%20Free%20NGN%201%2C000%20Crypto%20Voucher"
+    },
+    {
+      "id": "cl-1",
+      "network": "CPAlead",
+      "title": "Download & Install Jumia Online Store",
+      "description": "Install the Jumia mobile app, explore active discounts, and add 1 item to your cart.",
+      "rewardAmount": 300,
+      "estimatedTime": "2 Mins",
+      "difficulty": "Easy",
+      "category": "App Installs",
+      "offerUrl": "https://www.cdnnd.com/wall/6fSsGxBr?offer_id=cl-1&task=Download%20%26%20Install%20Jumia%20Online%20Store"
+    },
+    {
+      "id": "cl-2",
+      "network": "CPAlead",
+      "title": "Complete the Telecom Usage Survey",
+      "description": "Give feedback about your preferred mobile operator, network coverage, and monthly internet spending.",
+      "rewardAmount": 400,
+      "estimatedTime": "4 Mins",
+      "difficulty": "Easy",
+      "category": "Surveys",
+      "offerUrl": "https://www.cdnnd.com/wall/6fSsGxBr?offer_id=cl-2&task=Complete%20the%20Telecom%20Usage%20Survey"
+    },
+    {
+      "id": "lt-1",
+      "network": "Lootably",
+      "title": "Watch Ad Videos on Loot.tv",
+      "description": "Open the video channel stream, watch at least 3 sponsored high-definition clips, and earn loot points.",
+      "rewardAmount": 150,
+      "estimatedTime": "4 Mins",
+      "difficulty": "Easy",
+      "category": "Gaming Offers",
+      "offerUrl": "https://wall.lootably.com/?placementID=6fSsGxBr&offer_id=lt-1&task=Watch%20Ad%20Videos%20on%20Loot.tv"
+    },
+    {
+      "id": "lt-2",
+      "network": "Lootably",
+      "title": "Complete Premium Lootably Survey",
+      "description": "Engage in market research regarding consumer electronics, smartphone choices, and household decisions.",
+      "rewardAmount": 500,
+      "estimatedTime": "10 Mins",
+      "difficulty": "Medium",
+      "category": "Surveys",
+      "offerUrl": "https://wall.lootably.com/?placementID=6fSsGxBr&offer_id=lt-2&task=Complete%20Premium%20Lootably%20Survey"
+    },
+    {
+      "id": "bl-nig-1",
+      "network": "BitLabs",
+      "title": "Nigeria Consumer Habits & Inflation Survey",
+      "description": "Share your daily spending experiences under high inflation in Nigeria. Highly rewarded premium survey.",
+      "rewardAmount": 2500,
+      "estimatedTime": "8 Mins",
+      "difficulty": "Medium",
+      "category": "Surveys",
+      "offerUrl": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e&offer_id=bl-nig-1&task=Nigeria%20Consumer%20Habits%20%26%20Inflation%20Survey"
+    },
+    {
+      "id": "bl-nig-2",
+      "network": "BitLabs",
+      "title": "OPay vs PalmPay Mobile Banking Feedback",
+      "description": "Submit your honest review on your preferred fintech payment app in Nigeria to receive instant high payout.",
+      "rewardAmount": 1800,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Easy",
+      "category": "Opinions & Reviews",
+      "offerUrl": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e&offer_id=bl-nig-2&task=OPay%20vs%20PalmPay%20Mobile%20Banking%20Feedback"
+    },
+    {
+      "id": "bl-nig-3",
+      "network": "BitLabs",
+      "title": "Nigerian Youth Tech & Freelance Market Survey",
+      "description": "Participate in the 2026 Tech & Remote work survey. Earn high rewards on complete survey submission.",
+      "rewardAmount": 3200,
+      "estimatedTime": "12 Mins",
+      "difficulty": "Hard",
+      "category": "Surveys",
+      "offerUrl": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e&offer_id=bl-nig-3&task=Nigerian%20Youth%20Tech%20%26%20Freelance%20Market%20Survey"
+    },
+    {
+      "id": "cg-nig-1",
+      "network": "CPAGrip",
+      "title": "Watch 3-Min Airtel SmartCASH Promo Video",
+      "description": "Watch the official Airtel 3-minute promotional clip about SmartCASH wallet completely to receive instant credit.",
+      "rewardAmount": 600,
+      "estimatedTime": "3 Mins",
+      "difficulty": "Easy",
+      "category": "Watch Videos",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-nig-1&task=Watch%203-Min%20Airtel%20SmartCASH%20Promo%20Video"
+    },
+    {
+      "id": "cg-nig-2",
+      "network": "CPAGrip",
+      "title": "Follow and Like PiggyVest Launch Post on Twitter",
+      "description": "Open the Twitter link, follow PiggyVest official account, like and retweet the pinned post to earn fast payout.",
+      "rewardAmount": 400,
+      "estimatedTime": "2 Mins",
+      "difficulty": "Easy",
+      "category": "Likes & Shares",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-nig-2&task=Follow%20and%20Like%20PiggyVest%20Launch%20Post%20on%20Twitter"
+    },
+    {
+      "id": "cg-nig-3",
+      "network": "CPAGrip",
+      "title": "Nigeria Household Spending Survey",
+      "description": "Complete a 5-minute demographic survey regarding household consumption, internet spending, and food inflation in Nigeria.",
+      "rewardAmount": 950,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Medium",
+      "category": "Surveys",
+      "offerUrl": "https://playabledownloads.com/show.php?l=1904822&offer_id=cg-nig-3&task=Nigeria%20Household%20Spending%20Survey"
+    },
+    {
+      "id": "cl-nig-1",
+      "network": "CPAlead",
+      "title": "Read & Comment on PalmPay Fintech Blog Walkthrough",
+      "description": "Open PalmPay blog walkthrough, read for at least 1.5 minutes, and leave a detailed, helpful comment at the end.",
+      "rewardAmount": 500,
+      "estimatedTime": "3 Mins",
+      "difficulty": "Easy",
+      "category": "Read & Comment",
+      "offerUrl": "https://www.cdnnd.com/wall/6fSsGxBr?offer_id=cl-nig-1&task=Read%20%26%20Comment%20on%20PalmPay%20Fintech%20Blog%20Walkthrough"
+    },
+    {
+      "id": "cl-nig-2",
+      "network": "CPAlead",
+      "title": "Review Kuda Bank App on Google Play Store",
+      "description": "Download Kuda Bank, open it, and leave a constructive star review with a detailed explanation of your experience on the play store.",
+      "rewardAmount": 1100,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Medium",
+      "category": "Opinions & Reviews",
+      "offerUrl": "https://www.cdnnd.com/wall/6fSsGxBr?offer_id=cl-nig-2&task=Review%20Kuda%20Bank%20App%20on%20Google%20Play%20Store"
+    },
+    {
+      "id": "lt-nig-1",
+      "network": "Lootably",
+      "title": "Watch MTN Nigeria 5G Promo Launch Video",
+      "description": "Watch the full 5-minute promo video introducing high-speed MTN fiber broadband in Nigeria.",
+      "rewardAmount": 700,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Easy",
+      "category": "Watch Videos",
+      "offerUrl": "https://wall.lootably.com/?placementID=6fSsGxBr&offer_id=lt-nig-1&task=Watch%20MTN%20Nigeria%205G%20Promo%20Launch%20Video"
+    },
+    {
+      "id": "lt-nig-2",
+      "network": "Lootably",
+      "title": "Submit Opinion on OPay Virtual Card Payout Speeds",
+      "description": "Complete a quick review opinion poll sharing your feedback on OPay virtual card and offline transaction speeds.",
+      "rewardAmount": 850,
+      "estimatedTime": "4 Mins",
+      "difficulty": "Medium",
+      "category": "Opinions & Reviews",
+      "offerUrl": "https://wall.lootably.com/?placementID=6fSsGxBr&offer_id=lt-nig-2&task=Submit%20Opinion%20on%20OPay%20Virtual%20Card%20Payout%20Speeds"
+    },
+    {
+      "id": "bl-1",
+      "network": "BitLabs",
+      "title": "BitLabs Household Consumer Survey",
+      "description": "Participate in this short demographic survey to give feedback about household utility services and electronic devices.",
+      "rewardAmount": 600,
+      "estimatedTime": "5 Mins",
+      "difficulty": "Medium",
+      "category": "Surveys",
+      "offerUrl": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e&offer_id=bl-1&task=BitLabs%20Household%20Consumer%20Survey"
+    }
+  ],
+  "activeUserId": "usr-q71th2f2e",
+  "offerCompletions": [],
+  "messages": [
+    {
+      "id": "m-1",
+      "userId": "usr-1",
+      "userName": "Tunde Bakare",
+      "userRole": "user",
+      "membershipTier": "Free",
+      "message": "Hey guys! Just received my second withdrawal of ₦15,000 via Flutterwave. EarnPay is legit!",
+      "createdAt": "2026-06-29T08:21:47.653Z"
+    },
+    {
+      "id": "m-2",
+      "userId": "usr-2",
+      "userName": "Chidi Okafor",
+      "userRole": "user",
+      "membershipTier": "Bronze",
+      "message": "Nice! I just upgraded my membership to Bronze, the premium campaigns pay double! 🚀",
+      "createdAt": "2026-06-29T08:51:47.653Z"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "ach-1",
+      "userId": "usr-1",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "2026-06-26T10:21:47.653Z",
+      "bonusClaimed": true,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-2",
+      "userId": "usr-1",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "2026-06-17T10:21:47.653Z",
+      "bonusClaimed": true,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-3",
+      "userId": "usr-2",
+      "badge": "diamond_member",
+      "title": "Diamond Aristocrat",
+      "description": "Register as a Diamond Premium Member to claim benefits.",
+      "icon": "Gem",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 1000
+    },
+    {
+      "id": "ach-v1-usr-jajj81i07",
+      "userId": "usr-jajj81i07",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-jajj81i07",
+      "userId": "usr-jajj81i07",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-x5jd2l89a",
+      "userId": "usr-x5jd2l89a",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-x5jd2l89a",
+      "userId": "usr-x5jd2l89a",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-dfh4u73q8",
+      "userId": "usr-dfh4u73q8",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-dfh4u73q8",
+      "userId": "usr-dfh4u73q8",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-dynsghuqf",
+      "userId": "usr-dynsghuqf",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-dynsghuqf",
+      "userId": "usr-dynsghuqf",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-3zz0ws559",
+      "userId": "usr-3zz0ws559",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-3zz0ws559",
+      "userId": "usr-3zz0ws559",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-1wn2ysier",
+      "userId": "usr-1wn2ysier",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-1wn2ysier",
+      "userId": "usr-1wn2ysier",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-cw6ma1eur",
+      "userId": "usr-cw6ma1eur",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-cw6ma1eur",
+      "userId": "usr-cw6ma1eur",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-q71th2f2e",
+      "userId": "usr-q71th2f2e",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-q71th2f2e",
+      "userId": "usr-q71th2f2e",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    }
+  ],
+  "membershipConfigs": {
+    "Free": {
+      "tier": "Free",
+      "price": 0,
+      "dailyTasksLimit": 3,
+      "referralCommission": 0.03,
+      "withdrawalLimit": 5000,
+      "adsLimit": 5,
+      "durationDays": 60,
+      "benefits": [
+        "3 Daily Tasks",
+        "Basic Offerwall Access",
+        "Referral Commission: 3%",
+        "Withdrawal Limit: ₦5,000/day",
+        "Limit: 2 Months Trial Period Only"
+      ]
+    },
+    "Bronze": {
+      "tier": "Bronze",
+      "price": 5000,
+      "dailyTasksLimit": 10,
+      "referralCommission": 0.05,
+      "withdrawalLimit": 20000,
+      "adsLimit": 10,
+      "durationDays": 365,
+      "benefits": [
+        "10 Daily Tasks",
+        "Premium Offers Access",
+        "Referral Commission: 5%",
+        "Withdrawal Limit: ₦20,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Silver": {
+      "tier": "Silver",
+      "price": 15000,
+      "dailyTasksLimit": 20,
+      "referralCommission": 0.07,
+      "withdrawalLimit": 50000,
+      "adsLimit": 25,
+      "durationDays": 365,
+      "benefits": [
+        "20 Daily Tasks",
+        "Better Offers Access",
+        "Referral Commission: 7%",
+        "Withdrawal Limit: ₦50,050/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Gold": {
+      "tier": "Gold",
+      "price": 30000,
+      "dailyTasksLimit": 40,
+      "referralCommission": 0.1,
+      "withdrawalLimit": 100000,
+      "adsLimit": 50,
+      "durationDays": 365,
+      "benefits": [
+        "40 Daily Tasks",
+        "Priority Campaigns Exclusive",
+        "Referral Commission: 10%",
+        "Withdrawal Limit: ₦100,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Platinum": {
+      "tier": "Platinum",
+      "price": 50000,
+      "dailyTasksLimit": 60,
+      "referralCommission": 0.12,
+      "withdrawalLimit": 200000,
+      "adsLimit": 100,
+      "durationDays": 365,
+      "benefits": [
+        "60 Daily Tasks",
+        "Premium Campaigns Exclusive",
+        "Referral Commission: 12%",
+        "Withdrawal Limit: ₦200,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Diamond": {
+      "tier": "Diamond",
+      "price": 100000,
+      "dailyTasksLimit": 100,
+      "referralCommission": 0.15,
+      "withdrawalLimit": 500000,
+      "adsLimit": 250,
+      "durationDays": 365,
+      "benefits": [
+        "100 Daily Tasks",
+        "Exclusive Campaigns Direct Access",
+        "Referral Commission: 15%",
+        "Withdrawal Limit: ₦500,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Sapphire": {
+      "tier": "Sapphire",
+      "price": 150000,
+      "dailyTasksLimit": 150,
+      "referralCommission": 0.18,
+      "withdrawalLimit": 750000,
+      "adsLimit": 300,
+      "durationDays": 365,
+      "benefits": [
+        "150 Daily Tasks",
+        "Highest Payout Surveys",
+        "Referral Commission: 18%",
+        "Withdrawal Limit: ₦750,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Emerald": {
+      "tier": "Emerald",
+      "price": 250000,
+      "dailyTasksLimit": 200,
+      "referralCommission": 0.2,
+      "withdrawalLimit": 1200000,
+      "adsLimit": 400,
+      "durationDays": 365,
+      "benefits": [
+        "200 Daily Tasks",
+        "Dedicated Account Node",
+        "Referral Commission: 20%",
+        "Withdrawal Limit: ₦1,200,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Ruby": {
+      "tier": "Ruby",
+      "price": 400000,
+      "dailyTasksLimit": 300,
+      "referralCommission": 0.25,
+      "withdrawalLimit": 2000000,
+      "adsLimit": 500,
+      "durationDays": 365,
+      "benefits": [
+        "300 Daily Tasks",
+        "Super Charged Postbacks",
+        "Referral Commission: 25%",
+        "Withdrawal Limit: ₦2,000,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Crown": {
+      "tier": "Crown",
+      "price": 600000,
+      "dailyTasksLimit": 400,
+      "referralCommission": 0.3,
+      "withdrawalLimit": 3500000,
+      "adsLimit": 750,
+      "durationDays": 365,
+      "benefits": [
+        "400 Daily Tasks",
+        "Unlimited High-rewards Ads",
+        "Referral Commission: 30%",
+        "Withdrawal Limit: ₦3,500,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Ultimate": {
+      "tier": "Ultimate",
+      "price": 1000000,
+      "dailyTasksLimit": 600,
+      "referralCommission": 0.35,
+      "withdrawalLimit": 6000000,
+      "adsLimit": 1000,
+      "durationDays": 365,
+      "benefits": [
+        "600 Daily Tasks",
+        "Instant Automated Verification",
+        "Referral Commission: 35%",
+        "Withdrawal Limit: ₦6,000,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    },
+    "Infinity": {
+      "tier": "Infinity",
+      "price": 2500000,
+      "dailyTasksLimit": 1000,
+      "referralCommission": 0.4,
+      "withdrawalLimit": 15000000,
+      "adsLimit": 2000,
+      "durationDays": 365,
+      "benefits": [
+        "1000 Daily Tasks",
+        "Priority Instant S2S Settlement",
+        "Referral Commission: 40%",
+        "Withdrawal Limit: ₦15,000,000/day",
+        "Validity: 365 Days Annually"
+      ]
+    }
+  }
+}

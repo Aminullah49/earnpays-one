@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Dynamic Ezoic Privacy & Analytics Bootstrapper -->
+    <script>
+      (function() {
+        // Bypass Ezoic/CMP scripts if running in an iframe (AI Studio preview sandbox),
+        // localhost, or European dev cloud run domains, preventing geolocation or country consent API errors.
+        const isIframe = window.self !== window.top;
+        const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+        const isDevRun = window.location.hostname.includes('.run.app') || window.location.hostname.includes('google.com');
+
+        if (isIframe || isLocalhost || isDevRun) {
+          console.log("[Ezoic Bypass]: Sandbox/Dev mode detected. Suppressing CMP and Ezoic scripts to bypass country consent requirement API errors.");
+          window.ezstandalone = window.ezstandalone || {};
+          window.ezstandalone.cmd = window.ezstandalone.cmd || [];
+          return;
+        }
+
+        // Helper to load external script asynchronously with error tolerance
+        function loadScript(src, attrs = {}) {
+          const script = document.createElement('script');
+          script.src = src;
+          Object.keys(attrs).forEach(key => script.setAttribute(key, attrs[key]));
+          script.onerror = function(err) {
+            console.warn("[Ezoic Blocked/Failed]: Unable to load " + src, err);
+          };
+          document.head.appendChild(script);
+        }
+
+        // Load Gatekeeper CMP (GDPR/CCPA privacy consent)
+        loadScript("https://cmp.gatekeeperconsent.com/min.js", { "data-cfasync": "false" });
+        loadScript("https://the.gatekeeperconsent.com/cmp.min.js", { "data-cfasync": "false" });
+
+        // Load Main Ezoic Engine
+        loadScript("//www.ezojs.com/ezoic/sa.min.js", { "async": "true" });
+
+        // Setup Ezoic queue namespaces
+        window.ezstandalone = window.ezstandalone || {};
+        window.ezstandalone.cmd = window.ezstandalone.cmd || [];
+
+        // Load Ezoic Analytics
+        loadScript("//ezoicanalytics.com/analytics.js");
+      })();
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="google-adsense-account" content="ca-pub-8108447956570697">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EarnPay - Digital Rewards & Micro-Task Fintech Platform</title>
+    <meta name="description" content="A high-security, global multi-tiered micro-task fintech rewards platform featuring external SMS/SMTP carrier OTP dispatch support, 12 dynamic membership levels, offerwalls, task marketplaces, digital savings, and an interactive ROI calculator." />
+    <meta property="og:title" content="EarnPay - Digital Rewards & Micro-Task Fintech Platform" />
+    <meta property="og:description" content="A high-security, global multi-tiered micro-task fintech rewards platform featuring external SMS/SMTP carrier OTP dispatch support, 12 dynamic membership levels, offerwalls, task marketplaces, digital savings, and an interactive ROI calculator." />
+    <!-- Google AdSense script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8108447956570697"
+         crossorigin="anonymous"></script>
+    <!-- Google AdSense AMP Auto ads script -->
+    <script async custom-element="amp-auto-ads"
+            src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">
+    </script>
+  </head>
+  <body>
+    <amp-auto-ads type="adsense"
+            data-ad-client="ca-pub-8108447956570697">
+    </amp-auto-ads>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

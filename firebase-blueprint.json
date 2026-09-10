@@ -1,0 +1,38 @@
+{
+  "entities": {
+    "AppState": {
+      "title": "AppState",
+      "description": "Global application state including users, wallets, campaigns, and submissions.",
+      "type": "object",
+      "properties": {
+        "users": {
+          "type": "array",
+          "description": "Registered platform users."
+        },
+        "wallets": {
+          "type": "object",
+          "description": "User digital wallet configurations indexed by user ID."
+        },
+        "transactions": {
+          "type": "array",
+          "description": "Financial ledger transactions (deposits, payouts, commissions)."
+        },
+        "campaigns": {
+          "type": "array",
+          "description": "Advertiser-sponsored performance marketing campaigns."
+        },
+        "submissions": {
+          "type": "array",
+          "description": "User performance task submissions for validation."
+        }
+      },
+      "required": ["users", "wallets", "transactions", "campaigns", "submissions"]
+    }
+  },
+  "firestore": {
+    "app_state/earnpay_db": {
+      "schema": "AppState",
+      "description": "The master consolidated database document."
+    }
+  }
+}

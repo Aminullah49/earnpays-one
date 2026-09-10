@@ -1,0 +1,63 @@
+<svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" width="512" height="512">
+  <defs>
+    <!-- Elegant Emerald & Mint Gradients -->
+    <linearGradient id="epGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="lightningGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="coinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+    <!-- Outer Ring Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Luxury App Icon Aesthetic: Dark Charcoal Slate Background -->
+  <rect width="512" height="512" rx="112" fill="#090d16" />
+  <rect width="510" height="510" x="1" y="1" rx="111" stroke="#1e293b" stroke-width="2" stroke-opacity="0.6" />
+
+  <!-- Abstract Vector Elements container (scaled up from original 100x100 coordinates) -->
+  <g transform="translate(106, 106) scale(3)">
+    <!-- Background Abstract Grid Accent -->
+    <circle cx="50" cy="50" r="42" stroke="#10b981" stroke-width="1.5" stroke-opacity="0.08" stroke-dasharray="3 3" />
+    
+    <!-- Main Stylized 'E' Interlocking Base -->
+    <path
+      d="M25 35C25 28.3726 30.3726 23 37 23H65C66.1046 23 67 23.8954 67 25V31C67 32.1046 66.1046 33 65 33H41C38.7909 33 37 34.7909 37 37V43H57C58.1046 43 59 43.8954 59 45V51C59 52.1046 58.1046 53 57 53H37V63C37 65.2091 38.7909 67 41 67H65C66.1046 67 67 67.8954 67 69V75C67 76.1046 66.1046 77 65 77H37C30.3726 77 25 71.6274 25 65V35Z"
+      fill="url(#epGrad)"
+    />
+
+    <!-- Dynamic Lightning Bolt/Profit Vector inside E -->
+    <path
+      d="M60 20L44 52H56L40 80L70 42H54L60 20Z"
+      fill="url(#lightningGrad)"
+      opacity="0.85"
+      style="mix-blend-mode: screen;"
+    />
+
+    <!-- Mini Gold Coin Accent reflecting "Pay / Wealth" -->
+    <circle
+      cx="75"
+      cy="50"
+      r="10"
+      fill="url(#coinGrad)"
+      stroke="#111827"
+      stroke-width="2"
+      filter="url(#glow)"
+    />
+    <path
+      d="M75 45V55M72 47H78M72 53H78"
+      stroke="#fff"
+      stroke-width="1.2"
+      stroke-linecap="round"
+    />
+  </g>
+</svg>

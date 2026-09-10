@@ -1,0 +1,6 @@
+{
+  "name": "EarnPay",
+  "description": "A high-security, global multi-tiered micro-task fintech rewards platform featuring external SMS/SMTP carrier OTP dispatch support, 12 dynamic membership levels, offerwalls, task marketplaces, digital savings, and an interactive ROI calculator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
