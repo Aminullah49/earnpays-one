@@ -2836,6 +2836,16 @@ saveDB();
  * ----------------------------------------------------
  */
 
+// Health check endpoint
+app.get("/api/health", (req, res) => {
+  res.json({
+    status: "ok",
+    timestamp: new Date().toISOString(),
+    usersCount: db.users ? db.users.length : 0,
+    activeUserId: db.activeUserId || null
+  });
+});
+
 // Swap active user
 app.post("/api/user/swap", (req, res) => {
   const { userId } = req.body;

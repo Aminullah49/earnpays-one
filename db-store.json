@@ -188,6 +188,23 @@
       "pinSet": false,
       "createdAt": "2026-09-04T16:38:57.653Z",
       "streakCount": 0
+    },
+    {
+      "id": "usr-jmc03xprv",
+      "name": "Amina Danladi",
+      "email": "amina_live_test@earnpay.ng",
+      "phone": "+234 8113375533",
+      "role": "user",
+      "password": "$2b$10$Jk17SVjHWBkKyMhP3fyNI.SPdu1/y5SBv56peEEzjmFHgJdsmQ3fa",
+      "membershipTier": "Free",
+      "membershipExpiresAt": "2026-11-09T14:01:14.845Z",
+      "tasksCompletedToday": 0,
+      "referralCode": "EP-AMINA54",
+      "kycLevel": "none",
+      "kycStatus": "unsubmitted",
+      "pinSet": false,
+      "createdAt": "2026-09-10T14:01:14.845Z",
+      "streakCount": 0
     }
   ],
   "wallets": {
@@ -268,9 +285,27 @@
       "pending": 0,
       "referral": 0,
       "bonus": 0
+    },
+    "usr-jmc03xprv": {
+      "available": 500,
+      "pending": 0,
+      "referral": 0,
+      "bonus": 500
     }
   },
   "transactions": [
+    {
+      "id": "tx-84qyvqknv",
+      "userId": "usr-jmc03xprv",
+      "type": "referral_bonus",
+      "amount": 500,
+      "fee": 0,
+      "currency": "NGN",
+      "status": "completed",
+      "reference": "WLC-650317",
+      "description": "Welcome to EarnPay Sign up Bonus credit",
+      "createdAt": "2026-09-10T14:01:14.845Z"
+    },
     {
       "id": "tx-95sjdpn7v",
       "userId": "usr-q71th2f2e",
@@ -829,7 +864,7 @@
       "offerUrl": "https://web.bitlabs.ai/?token=ee9047d8-3445-43ff-83bc-fae291b70b3e&offer_id=bl-1&task=BitLabs%20Household%20Consumer%20Survey"
     }
   ],
-  "activeUserId": "usr-q71th2f2e",
+  "activeUserId": "usr-jmc03xprv",
   "offerCompletions": [],
   "messages": [
     {
@@ -1053,6 +1088,28 @@
     {
       "id": "ach-v2-usr-q71th2f2e",
       "userId": "usr-q71th2f2e",
+      "badge": "first_referral",
+      "title": "Team Builder",
+      "description": "Successfully invite a friend using your unique invitation code.",
+      "icon": "Users",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 200
+    },
+    {
+      "id": "ach-v1-usr-jmc03xprv",
+      "userId": "usr-jmc03xprv",
+      "badge": "first_task",
+      "title": "Task Starter",
+      "description": "Successfully complete your first advertiser campaign task.",
+      "icon": "CheckSquare",
+      "unlockedAt": "",
+      "bonusClaimed": false,
+      "bonusAmount": 100
+    },
+    {
+      "id": "ach-v2-usr-jmc03xprv",
+      "userId": "usr-jmc03xprv",
       "badge": "first_referral",
       "title": "Team Builder",
       "description": "Successfully invite a friend using your unique invitation code.",
